@@ -19,19 +19,17 @@ Bem-vindo(a) ao meu portfólio! Este projeto foi desenvolvido em **Vue 3** para 
 
 ---
 
-## 🔥 Recursos do Portfólio
-✅ Design minimalista inspirado na minha identidade visual 
-✅ Seções de projetos e experiência profissional  
-✅ Responsivo para diversos dispositivos  
-✅ Código limpo e otimizado  
+🔥 Recursos do Portfólio
 
+✅ Design minimalista inspirado na minha identidade visual <br>
+✅ Seções de projetos e experiência profissional <br>
+✅Responsivo para diversos dispositivos <br>
+✅ Código limpo e otimizado
 ---
 
 ## 📬 Contato
 Quer trocar uma ideia sobre games ou colaborações? Me chama!  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-clara-rezende-vianna-2198491b8/)  
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/why_clarinharv/)  
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/why_clararv)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-clara-rezende-vianna-2198491b8/)  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/why_clarinharv/)  [![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/why_clararv)   
 
 ---
 
