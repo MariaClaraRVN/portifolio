@@ -34,15 +34,6 @@ Quer trocar uma ideia sobre games ou colaborações? Me chama!
 
 ---
 
-## 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MariaClaraRVN&show_icons=true&theme=transparent" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MariaClaraRVN&layout=compact&theme=transparent" alt="Top Langs" />
-</div>
-
----
-
 ### 💡 Como Rodar o Projeto
 1. Clone este repositório:  
    ```sh
