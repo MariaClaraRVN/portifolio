@@ -2,6 +2,9 @@
 
 Bem-vindo(a) ao meu portfólio! Este projeto foi desenvolvido em **Vue 3** para apresentar meus trabalhos como **Game Designer & Desenvolvedora Web**.
 
+##Acesse em:
+🔗[Acesse Aqui](https://portifolio-a4u4xhatf-mariaclararvns-projects.vercel.app/)
+
 ## 🛠️ Tecnologias Utilizadas no Desenvolvimento
 
 ### 🌐 Web Dev
