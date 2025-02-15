@@ -100,7 +100,7 @@ export default {
 
 .container {
   padding: 50px 20px;
-  max-width: 80%;
+  max-width: 82%;
 }
 
 .heading {
