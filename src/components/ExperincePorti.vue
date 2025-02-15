@@ -83,7 +83,6 @@ export default {
 .container {
     max-width: 800px;
     margin: auto;
-    margin-top: -5%;
     padding: 50px 20px;
     position: relative;
 }
@@ -96,7 +95,6 @@ export default {
 }
 
 .timeline {
-    margin-top: 4%;
     position: relative;
     padding: 20px 0;
 }

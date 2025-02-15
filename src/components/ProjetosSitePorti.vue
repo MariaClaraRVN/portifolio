@@ -42,7 +42,7 @@
           <img src="../assets/img/Capa_Do_Jogo-export2.png" alt="Crossed Ways">
         </div>
         <div class="project-title">CROSSED WAYS</div><br><br>
-        <p class="project-description">Crossed Ways é um jogo narrativo onde o jogador escolhe entre seguir a vida de um ladrão ou de um pianista renomado, com mecânica rítmica envolvente.</p> <br> 
+        <p class="project-description">Crossed Ways é um jogo narrativo onde o jogador escolhe entre seguir a vida de um ladrão ou de um pianista renomado, com mecânica rítmica envolvente.</p> <br> <br>
         <div class="botoes">
         <div class="service-info">
                     <i class='bx bxs-joystick'></i>
@@ -100,7 +100,7 @@ export default {
 
 .container {
   padding: 50px 20px;
-  max-width: 82%;
+  max-width: 70%;
 }
 
 .heading {

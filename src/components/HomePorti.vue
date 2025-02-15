@@ -2,8 +2,8 @@
     <section class="home" id="inicio">
       <div class="home-content">
         <h1>Olá, eu sou a <span>Maria Clara</span></h1>
-        <h3>Atualmente sou <span>Instrutora de Metaverso</span></h3>
-        <p>Aplicando conceitos de Realidade Aumentada (AR), Modelagem 3D e Realidade Virtual (VR) para alunos do 5º ao 9º ano...</p>
+        <h3>Atualmente sou <span>Estagiaria em Front - End</span></h3>
+        <p>Desenvolvimento de páginas web responsivas utilizando HTML, CSS (SASS), com integração de Javascript, React e Vue. <br>Além de manipulação de imagens, controle de versão com GIT e integração com backend</p>
         <div class="social-icons">
           <a target="_blank" href="https://github.com/MariaClaraRVN"><i class="bx bxl-github"></i></a>
           <a target="_blank" href="https://www.linkedin.com/in/mariaclaravianna/"><i class="bx bxl-linkedin"></i></a>
@@ -42,6 +42,9 @@
     gap: 15rem;
 }
 
+span{
+  color: var(--main-color);
+}
 .home-content {
     display: flex;
     flex-direction: column;
