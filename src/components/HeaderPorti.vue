@@ -1,20 +1,30 @@
 <template>
     <header class="header">
       <a href="#inicio" class="logo">Mc<span>rv.</span></a>
-      <i class="bx bx-menu" id="menu-icon"></i>
-      <nav class="navbar">
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#experience">Experiência</a>
-        <a href="#servicos">Projetos</a>
-        <a href="#contatos">Contatos</a>
+      <i class="bx bx-menu" id="menu-icon" @click="toggleMenu"></i>
+      <nav class="navbar" :class="{ active: isActive }">
+        <a href="#inicio" @click="toggleMenu">Início</a>
+        <a href="#sobre" @click="toggleMenu">Sobre</a>
+        <a href="#experience" @click="toggleMenu">Experiência</a>
+        <a href="#servicos" @click="toggleMenu">Projetos</a>
+        <a href="#contatos" @click="toggleMenu">Contatos</a>
       </nav>
     </header>
   </template>
   
   <script>
   export default {
-    name: 'HeaderPorti'
+    name: 'HeaderPorti',
+    data() {
+      return {
+        isActive: false
+      }
+    },
+    methods: {
+      toggleMenu() {
+        this.isActive = !this.isActive;
+      }
+    }
   }
   </script>
   
