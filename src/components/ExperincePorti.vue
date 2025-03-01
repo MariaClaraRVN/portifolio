@@ -130,7 +130,6 @@ export default {
 
 .experiencia-empresa {
     width: 50%;
-
 }
 
 .empresaD {
@@ -149,7 +148,7 @@ export default {
 
 .experience-box {
     border: 1px solid var(--main-color);
-    background-color:var(--second-bg-color);
+    background-color: var(--second-bg-color);
     padding: 15px;
     border-radius: 10px;
     max-width: 100%;
@@ -158,14 +157,63 @@ export default {
     font-size: 11px;
 }
 
-
 .date {
     font-weight: bold;
     margin-bottom: 5px;
     color: var(--main-color);
 }
 
-p{
+p {
     color: var(--text-color);
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+    .heading {
+        font-size: 5rem;
+    }
+
+    .experience {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .timeline::after {
+        display: none;
+    }
+
+    .experiencia-empresa {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 4rem;
+    }
+
+    .experience-box {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .empresaD, .empresaE {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 3rem;
+    }
+
+    .experience-box {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .empresaD, .empresaE {
+        font-size: 1.2rem;
+    }
 }
 </style>

@@ -60,7 +60,7 @@ span {
 }
 
 span:hover {
-    transform: scale(1.3)translateY(-5px);
+    transform: scale(1.3) translateY(-5px);
     text-shadow: 0 0 25px var(--main-color),
         0 0 50px var(--text-color);
 }
@@ -79,5 +79,55 @@ span:hover {
     border-bottom: 3px solid var(--main-color);
     color: var(--main-color);
 }
-  </style>
-  
+
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+    .header {
+        padding: 2rem 5%;
+    }
+
+    .navbar a {
+        font-size: 1.6rem;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    .navbar a {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar a {
+        font-size: 1.8rem;
+    }
+}
+</style>

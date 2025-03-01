@@ -154,5 +154,86 @@ span{
     background-color: var(--main-color);
     color: var(--text-color);
 }
-  </style>
-  
+
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+    .home {
+        gap: 10rem;
+    }
+
+    .home-content h1 {
+        font-size: 6rem;
+    }
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
+    .home-content p {
+        font-size: 1.3rem;
+    }
+
+    .social-icons a {
+        font-size: 2.5rem;
+        padding: 0.8rem;
+    }
+
+    .btn {
+        padding: 0.8rem 2.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+
+    .social-icons a {
+        font-size: 2rem;
+        padding: 0.6rem;
+    }
+
+    .btn {
+        padding: 0.6rem 2rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+        padding: 0.4rem;
+    }
+
+    .btn {
+        padding: 0.4rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+</style>

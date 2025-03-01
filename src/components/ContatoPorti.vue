@@ -26,7 +26,7 @@
   
   <script>
   export default {
-    name: 'ConattoPorti'
+    name: 'ContatoPorti'
   }
   </script>
   
@@ -61,7 +61,7 @@ span {
 }
 
 span:hover {
-    transform: scale(1.3)translateY(-5px);
+    transform: scale(1.3) translateY(-5px);
     text-shadow: 0 0 25px var(--main-color),
         0 0 50px var(--text-color);
 }
@@ -118,5 +118,53 @@ span:hover {
     color: black;
 }
 
-  </style>
-  
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+    .heading {
+        font-size: 5rem;
+    }
+
+    .contact form {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact form .input-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 4rem;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.8rem 2.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 3rem;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        padding: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 0.6rem 2rem;
+        font-size: 1.2rem;
+    }
+}
+</style>

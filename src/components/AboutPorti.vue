@@ -40,6 +40,7 @@ export default {
 /* Estilização sobre mim */
 .about {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10rem;
@@ -51,7 +52,6 @@ export default {
     font-size: 7rem;
     color: var(--text-color);
     margin-bottom: 3rem;
-
 }
 
 .about-img img {
@@ -79,16 +79,6 @@ export default {
     text-align: justify;
 }
 
-
-
-/*  .sobre-mim {
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  padding: 10px;
-  gap: 5%;
-} */
-
 .caixa {
   background-color: var(--box-color);
   width: 100%;
@@ -115,45 +105,67 @@ export default {
   font-size: 1.5rem;
   color:var(--text-color);
   text-align: left;
-
 }
 
-/* Estilização do inicio botões */
-/* .btn-group {
-    display: flex;
-    gap: 5rem;
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+    .about {
+        gap: 5rem;
+    }
+
+    .heading {
+        font-size: 5rem;
+    }
+
+    .about-img img {
+        width: 30rem;
+    }
 }
 
-.btn {
-    display: inline-block;
-    padding: 1rem 3rem;
-    background: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
-    border-radius: 3rem;
-    font-size: 1.8rem;
-    color: black;
-    border: 2px solid transparent;
-    font-weight: 600;
-    transition: 0.3s ease-in-out
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .about-content {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+
+    .about-img img {
+        width: 25rem;
+    }
+
+    .titulo-caixa {
+        font-size: 1.8rem;
+    }
+
+    .text-about {
+        font-size: 1.2rem;
+    }
 }
 
-.btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px var(--main-color),
-        0 0 50px var(--text-color),
-        0 0 100px var(--main-color);
-}
+@media (max-width: 480px) {
+    .heading {
+        font-size: 3rem;
+    }
 
-.btn-group a:nth-of-type(2) {
-    background-color: black;
-    color: var(--main-color);
-    border: 2px solid var(--main-color);
-    box-shadow: 0 0 25px transparent;
-}
+    .about-img img {
+        width: 20rem;
+    }
 
-.btn-group a:nth-of-type(2):hover {
-    box-shadow: 0 0 25px var(--main-color);
-    background-color: var(--main-color);
-    color: black;
-} */
+    .titulo-caixa {
+        font-size: 1.5rem;
+    }
+
+    .text-about {
+        font-size: 1rem;
+    }
+}
 </style>

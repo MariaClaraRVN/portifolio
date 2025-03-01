@@ -77,8 +77,41 @@
 .social-icons a:hover {
     color: var(--text-color);
     background-color: var(--main-color);
-    transform: scale(1.3)translateY(-5px);
+    transform: scale(1.3) translateY(-5px);
     box-shadow: 0 0 25px var(--main-color);
 }
-  </style>
-  
+
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+    .footer ul {
+        font-size: 1.5rem;
+    }
+
+    .social-icons a {
+        font-size: 2.5rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer ul {
+        font-size: 1.2rem;
+    }
+
+    .social-icons a {
+        font-size: 2rem;
+        padding: 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer ul {
+        font-size: 1rem;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+        padding: 0.4rem;
+    }
+}
+</style>
