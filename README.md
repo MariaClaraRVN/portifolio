@@ -2,6 +2,8 @@
 
 Bem-vindo(a) ao meu portfólio! Este projeto foi desenvolvido em **Vue 3** para apresentar meus trabalhos como **Game Designer & Desenvolvedora Web**.
 
+## Acesse em: <br> 🔗[Acesse Aqui](https://portifolio-a4u4xhatf-mariaclararvns-projects.vercel.app/)
+
 ## 🛠️ Tecnologias Utilizadas no Desenvolvimento
 
 ### 🌐 Web Dev
@@ -9,13 +11,6 @@ Bem-vindo(a) ao meu portfólio! Este projeto foi desenvolvido em **Vue 3** para 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white) 
-
-
-### 🎮 Game Dev
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
 
 ---
 
