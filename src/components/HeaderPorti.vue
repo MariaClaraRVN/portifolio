@@ -3,6 +3,7 @@
       <a href="#inicio" class="logo">Mc<span>rv.</span></a>
       <i class="bx bx-menu" id="menu-icon" @click="toggleMenu"></i>
       <nav class="navbar" :class="{ active: isActive }">
+        <i class="bx bx-x" id="close-icon" @click="toggleMenu"></i>
         <a href="#inicio" @click="toggleMenu">Início</a>
         <a href="#sobre" @click="toggleMenu">Sobre</a>
         <a href="#experience" @click="toggleMenu">Experiência</a>
@@ -51,6 +52,17 @@
     display: none;
 }
 
+/* Estilização do ícone de fechar */
+#close-icon {
+    font-size: 3.6rem;
+    color: var(--main-color);
+    display: none;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
 /* Estilização da logo */
 .logo {
     font-size: 3rem;
@@ -72,7 +84,7 @@ span {
 span:hover {
     transform: scale(1.3) translateY(-5px);
     text-shadow: 0 0 25px var(--main-color),
-        0 0 50px var(--text-color);
+        0 0 50px var (--text-color);
 }
 
 /* Estilização do menu de navegação */
@@ -121,13 +133,17 @@ span:hover {
         transition: 0.3s;
     }
 
+    .navbar.active {
+        left: 0;
+    }
+
     .navbar a {
         font-size: 2rem;
         margin: 2rem 0;
     }
 
-    .navbar.active {
-        left: 0;
+    #close-icon {
+        display: block;
     }
 }
 
