@@ -102,7 +102,6 @@ span:hover {
     color: var(--main-color);
 }
 
-/* Media Queries para responsividade */
 @media (max-width: 1200px) {
     .header {
         padding: 2rem 5%;
